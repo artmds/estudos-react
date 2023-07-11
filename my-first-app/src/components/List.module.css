@@ -1,0 +1,14 @@
+.tituloLista{
+  color: red;
+  font-size: 2.5rem;
+}
+
+.listUl{
+  list-style: none;
+
+}
+
+.listLi{
+  font-size: 1.2rem;
+  font-weight: bold;
+}

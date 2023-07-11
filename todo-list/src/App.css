@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&family=Noto+Serif:wght@400;700&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+  font-family: 'Inter';
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(54deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+}
+
+.container{
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.todo-header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-list{
+  list-style: none;
+  margin: 10px 0 0;
+  height: 300px;
+  padding: 5px;
+  overflow: auto;
+}
+
+.todolist-item{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+input{
+  background-color: rgb(233, 233, 233);
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.todolist-item + .todolist-item{
+  margin-top: 5px;
+  border-top: 1px solid black;
+  padding-top: 5px;
+}
+
+button{
+  border: 1px solid rgb(88, 107, 155);
+}
